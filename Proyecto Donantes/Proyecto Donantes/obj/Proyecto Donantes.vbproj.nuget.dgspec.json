@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\Proyecto Donantes.vbproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\Proyecto Donantes.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\Proyecto Donantes.vbproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\Proyecto Donantes.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\Proyecto Donantes.vbproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\Proyecto Donantes.vbproj",
         "projectName": "Proyecto Donantes",
-        "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\Proyecto Donantes.vbproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\obj\\",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\Proyecto Donantes.vbproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Proyecto_Donantes\\Proyecto Donantes\\Proyecto Donantes\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
