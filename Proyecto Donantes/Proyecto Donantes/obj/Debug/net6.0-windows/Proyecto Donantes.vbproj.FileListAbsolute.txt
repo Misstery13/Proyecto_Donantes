@@ -18,3 +18,7 @@ D:\OneDrive - Universidad Península de Santa Elena\SEGUNDO SEMESTRE AUTO 2\PROG
 D:\OneDrive - Universidad Península de Santa Elena\SEGUNDO SEMESTRE AUTO 2\PROGRAMACION AVANZADA\Proyecto_Donantes\Proyecto Donantes\Proyecto Donantes\obj\Debug\net6.0-windows\Proyecto Donantes.pdb
 D:\OneDrive - Universidad Península de Santa Elena\SEGUNDO SEMESTRE AUTO 2\PROGRAMACION AVANZADA\Proyecto_Donantes\Proyecto Donantes\Proyecto Donantes\obj\Debug\net6.0-windows\Proyecto Donantes.genruntimeconfig.cache
 D:\OneDrive - Universidad Península de Santa Elena\SEGUNDO SEMESTRE AUTO 2\PROGRAMACION AVANZADA\Proyecto_Donantes\Proyecto Donantes\Proyecto Donantes\obj\Debug\net6.0-windows\ref\Proyecto Donantes.dll
+D:\OneDrive - Universidad Península de Santa Elena\SEGUNDO SEMESTRE AUTO 2\PROGRAMACION AVANZADA\Proyecto_Donantes\Proyecto Donantes\Proyecto Donantes\obj\Debug\net6.0-windows\Proyecto_Donantes.campaña.resources
+D:\OneDrive - Universidad Península de Santa Elena\SEGUNDO SEMESTRE AUTO 2\PROGRAMACION AVANZADA\Proyecto_Donantes\Proyecto Donantes\Proyecto Donantes\obj\Debug\net6.0-windows\Proyecto_Donantes.frm_campaña.resources
+D:\OneDrive - Universidad Península de Santa Elena\SEGUNDO SEMESTRE AUTO 2\PROGRAMACION AVANZADA\Proyecto_Donantes\Proyecto Donantes\Proyecto Donantes\obj\Debug\net6.0-windows\Proyecto_Donantes.personal.resources
+D:\OneDrive - Universidad Península de Santa Elena\SEGUNDO SEMESTRE AUTO 2\PROGRAMACION AVANZADA\Proyecto_Donantes\Proyecto Donantes\Proyecto Donantes\obj\Debug\net6.0-windows\Proyecto_Donantes.frm_personal.resources
