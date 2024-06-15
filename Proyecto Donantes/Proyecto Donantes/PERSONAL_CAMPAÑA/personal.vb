@@ -3,7 +3,7 @@
         Try
             If e.RowIndex > -1 Then
                 Dim frm As New frm_personal
-                frm.cedula = dgv_personal.Rows(e.RowIndex).Cells(0).Value
+                frm.ID = dgv_personal.Rows(e.RowIndex).Cells(0).Value
                 frm.ShowDialog()
                 'cargar nuevamente la información
                 If Buscarpersonal(txt_buscar.Text) = False Then
@@ -21,12 +21,12 @@
             Buscarpersonal = False
             Dim consultaSql As String = ""
             dgv_personal.Rows.Clear()
-            consultaSql = " SELECT * FROM personal where Apellidos_Nombres like '" & textobuscar & "%'"
+            consultaSql = " SELECT p.ID_Personal, p.Cedula, p.Apellidos_Nombres, p.Fecha_Nacimiento, p.Direccion, p.Telefono, p.Correo_Electronico, p.Usuario, p.Clave, c.Nombre AS NombreCampaña FROM personal AS p INNER JOIN campaña AS c ON p.ID_Campaña = c.ID_Campaña WHERE p.Apellidos_Nombres LIKE '%" & textobuscar & "%';"
             If conectar() = True Then
                 dr = ejecurar_consultatxt(consultaSql)
                 If dr.HasRows = True Then
                     While dr.Read
-                        dgv_personal.Rows.Add(dr("Cedula"), dr("Apellidos_Nombres"), dr("Fecha_Nacimiento"), dr("Direccion"), dr("Telefono"), dr("Correo_Electronico"))
+                        dgv_personal.Rows.Add(dr("NombreCampaña"), dr("ID_Personal"), dr("Cedula"), dr("Apellidos_Nombres"), dr("Fecha_Nacimiento"), dr("Direccion"), dr("Telefono"), dr("Correo_Electronico"), dr("Usuario"), dr("Clave"))
                     End While
                 End If
                 dr.Close()
@@ -42,7 +42,7 @@
     Private Sub btn_nuevo_Click(sender As Object, e As EventArgs) Handles btn_nuevo.Click
         Try
             Dim frm As New frm_personal
-            frm.cedula = ""
+            frm.ID = ""
             frm.ShowDialog()
             'cargar nuevamente la información
             If Buscarpersonal(txt_buscar.Text) = False Then
@@ -74,7 +74,7 @@
 
     Private Sub personal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If Buscarpersonal(txt_buscar.Text) = False Then
-            MsgBox("No existe campaña")
+            MsgBox("No existe personal")
         End If
     End Sub
 End Class

@@ -10,6 +10,7 @@
     End Sub
 
     Private Sub frm_campaña_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txt_id.ReadOnly = True
         Try
             If id <> "" Then
                 'editar
@@ -67,10 +68,6 @@
     End Sub
 
     Private Function fun_validar() As Boolean
-        If Trim(txt_id.Text) = "" Then
-            MsgBox("Registre el número de cédula")
-            Return False
-        End If
         If Trim(txt_nombre.Text) = "" Then
             MsgBox("Registre el nombre")
             Return False
