@@ -136,6 +136,3 @@ The project currently references `MySql.Data.dll` via a Windows HintPath. On you
 
 `/recu` contains a small WinForms project (`recu.sln`, `recu/`) targeting `net6.0-windows`. It is independent of the main app and can be built/run similarly in Visual Studio.
 
-## 📄 License
-
-No license specified. Add a `LICENSE` file if you intend to publish or share this code.
