@@ -1,0 +1,31 @@
+name: CI (Windows .NET 6)
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 6 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '6.0.x'
+
+      - name: Restore Proyecto Donantes
+        run: dotnet restore "Proyecto Donantes/Proyecto Donantes.sln"
+
+      - name: Build Proyecto Donantes (Release)
+        run: dotnet build "Proyecto Donantes/Proyecto Donantes.sln" -c Release --no-restore
+
+      - name: Restore recu
+        run: dotnet restore "recu/recu.sln"
+
+      - name: Build recu (Release)
+        run: dotnet build "recu/recu.sln" -c Release --no-restore
