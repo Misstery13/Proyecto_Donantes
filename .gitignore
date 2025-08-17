@@ -1,0 +1,39 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+[Bb]uild/
+[Rr]elease/
+[Dd]ebug/
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs & temp
+*.log
+*.tlog
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.rar
+
+# Others
+TestResult*
+*.cache
+*.pdb
